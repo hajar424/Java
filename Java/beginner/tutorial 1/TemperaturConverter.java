@@ -33,6 +33,6 @@ public class converter {
         Scanner SC = new Scanner(System.in);
         Double Fahrenheit = SC.nextDouble();
         Double result = (Fahrenheit-32.0)/(1.8);
-        System.out.println("The Celsius is: " + result + " if the Fahrenheit is " + Fahrenheit );
+        System.out.println("The Celsius is: " + result + " if the Fahrenheit is  " + Fahrenheit );
     }
 }
