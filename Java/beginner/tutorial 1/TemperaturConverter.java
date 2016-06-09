@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Created by hajar on 2016-06-08.
  */
-public class sampleProgram1 {
+public class converter {
     public static void main(String[] args) {
         System.out.println("Would you like to convert Celsius to Fahrenheit or contrariwise ");
         System.out.println("1. Celsius to Fahrenheit");
