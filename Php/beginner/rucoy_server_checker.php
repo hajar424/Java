@@ -11,11 +11,11 @@ function ping($host,$port=4000,$timeout=6)
         $fsock = fsockopen($host, $port, $errno, $errstr, $timeout);
         if ( ! $fsock )
         {
-            return '<span id="offline">Offline</span>';
+            return '<span>Offline</span>';
         }
         else
         {
-            return '<span id="online">Online</span>';
+            return '<span>Online</span>';
         }
     }
 
